@@ -1,0 +1,10 @@
+version: '3.7'
+
+networks:
+  nginxfpm:
+    external: true
+    name: localdev
+
+services:
+  fpm:
+    image: php/fpm

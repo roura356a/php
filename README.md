@@ -6,14 +6,16 @@ Clone of official PHP with some improvements.
 - [`7.0-apache` (*apache/7.0/Dockerfile*)](https://github.com/studionone/php/blob/master/apache/7.0/Dockerfile)
 - [`7.1-apache` (*apache/7.1/Dockerfile*)](https://github.com/studionone/php/blob/master/apache/7.1/Dockerfile)
 - [`7.2-apache` (*apache/7.2/Dockerfile*)](https://github.com/studionone/php/blob/master/apache/7.2/Dockerfile)
+- [`7.3-apache` (*apache/7.3/Dockerfile*)](https://github.com/studionone/php/blob/master/apache/7.3/Dockerfile)
 - [`apache-fpm` (*apache/fpm/Dockerfile*)](https://github.com/studionone/php/blob/master/apache/fpm/Dockerfile)
 - [`7.0-apache-fpm` (*apache/7.0/fpm/Dockerfile*)](https://github.com/studionone/php/blob/master/apache/7.0/fpm/Dockerfile)
 - [`7.1-apache-fpm` (*apache/7.1/fpm/Dockerfile*)](https://github.com/studionone/php/blob/master/apache/7.1/fpm/Dockerfile)
 - [`7.2-apache-fpm` (*apache/7.2/fpm/Dockerfile*)](https://github.com/studionone/php/blob/master/apache/7.2/fpm/Dockerfile)
+- [`7.3-apache-fpm` (*apache/7.3/fpm/Dockerfile*)](https://github.com/studionone/php/blob/master/apache/7.3/fpm/Dockerfile)
 - [`nginx-fpm` (*nginx/Dockerfile*)](https://github.com/studionone/php/blob/master/nginx/Dockerfile)
 
 ## Standard Apache images
-### `apache`, `7.0-apache`, `7.1-apache` and `7.2-apache`
+### `apache`, `7.0-apache`, `7.1-apache`, `7.2-apache` and `7.3-apache`
 - Apache2 module `mod_rewrite` is enabled
 - PHP extensions `pdo`, `pdo_pgsql` and `pgsql`
 - PHP directive `file_uploads` set to `On`
@@ -23,7 +25,7 @@ Clone of official PHP with some improvements.
 - PHP directive `max_execution_time` set to `600`
 
 ## FPM-dependant Apache images
-### `apache-fpm`, `7.0-apache-fpm`, `7.1-apache-fpm` and `7.2-apache-fpm`
+### `apache-fpm`, `7.0-apache-fpm`, `7.1-apache-fpm`, `7.2-apache-fpm` and `7.3-apache-fpm`
 - Apache2 module `rewrite` is enabled
 - Apache2 module `proxy` is enabled
 - Apache2 module `proxy_fcgi` is enabled
