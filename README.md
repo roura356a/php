@@ -12,7 +12,8 @@ Clone of official PHP with some improvements.
 - [`7.1-apache-fpm` (*apache/7.1/fpm/Dockerfile*)](https://github.com/studionone/php/blob/master/apache/7.1/fpm/Dockerfile)
 - [`7.2-apache-fpm` (*apache/7.2/fpm/Dockerfile*)](https://github.com/studionone/php/blob/master/apache/7.2/fpm/Dockerfile)
 - [`7.3-apache-fpm` (*apache/7.3/fpm/Dockerfile*)](https://github.com/studionone/php/blob/master/apache/7.3/fpm/Dockerfile)
-- [`nginx-fpm` (*nginx/Dockerfile*)](https://github.com/studionone/php/blob/master/nginx/Dockerfile)
+- [`nginx-fpm` (*nginx/fpm/Dockerfile*)](https://github.com/studionone/php/blob/master/nginx/fpm/Dockerfile)
+- [`tengine-fpm` (*tengine/fpm/Dockerfile*)](https://github.com/studionone/php/blob/master/tengine/fpm/Dockerfile)
 
 ## Standard Apache images
 ### `apache`, `7.0-apache`, `7.1-apache`, `7.2-apache` and `7.3-apache`
@@ -35,6 +36,12 @@ Clone of official PHP with some improvements.
 
 ## FPM-dependant Nginx images
 ### `nginx-fpm`
+- The FPM host must be `fpm`
+- The FPM host must listen on `9000`
+- The codebase goes to `/var/www/html`
+
+## FPM-dependant Tengine images
+### `tengine-fpm`
 - The FPM host must be `fpm`
 - The FPM host must listen on `9000`
 - The codebase goes to `/var/www/html`
